@@ -1,11 +1,12 @@
 # note-app-
 frontend with react and backend with django rest framework
-#commands
+# commands
 ```bash
 git clone https://github.com/venkateswararao10/note-app-.git
 ```
-#Backend
-#commands
+# Backend
+
+# commands
 ```bash
 cd note-app-/Note_App/Backend_Django
 pip install -r requirements.txt
