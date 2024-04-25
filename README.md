@@ -46,3 +46,15 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 ```
+
+# Frontend
+take new terminal
+# command
+```bash
+cd note-app-/Note_App/Frontend_React
+```
+requirements is to install node.js 
+```bash
+npm install
+npm start
+```
