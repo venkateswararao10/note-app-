@@ -1,0 +1,27 @@
+/* App.css */
+
+.note-details {
+    max-width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.delete-note-btn, .back-to-notes-btn {
+    background-color: #e53e3e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-note-btn:hover, .back-to-notes-btn:hover {
+    background-color: #c53030;
+}
+
+.back-to-notes-btn {
+    margin-left: 10px;
+}
