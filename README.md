@@ -23,9 +23,9 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
         "NAME": "[YOUR_DATABASE_NAME]",
         "USER": "[YOUR_USER_NAME]",
-        "PASSWORD": "",
+        "PASSWORD": "[YOUR_PASSWORD]",
         "HOST": "localhost",
-        "PORT": "",
+        "PORT": "[YOUR_PORTNO]",
     }
 }
 ```
@@ -42,7 +42,7 @@ if u want create superuser
 ```bash
 python manage.py createsuperuser
 ```
-#Run 
+# Run 
 ```bash
 python manage.py runserver
 ```
