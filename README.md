@@ -29,3 +29,20 @@ DATABASES = {
     }
 }
 ```
+AFTER CHANGING Settings.py
+```bash
+cd ..
+```
+# commands
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+if u want create superuser
+```bash
+python manage.py createsuperuser
+```
+#Run 
+```bash
+python manage.py runserver
+```
